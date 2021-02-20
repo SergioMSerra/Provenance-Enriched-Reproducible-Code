@@ -1,0 +1,18 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix greco: <http://www.ufrj.br/ppgi/greco/#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ufrj: <http://www.ufrj.br/ppgi/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ufrj:RandomWalkResult a prov:Entity ;
+    prov:generatedAtTime "2021-02-20 16:56:57.443086"^^xsd:string ;
+    prov:wasAttributedTo foaf:Serra ;
+    prov:wasGeneratedBy greco:RW5WithProv .
+
+greco:RW5WithProv a prov:Activity .
+
+foaf:Serra a prov:Agent ;
+    prov:attributedAtTime "2021-02-20 16:56:57.443086"^^xsd:string ;
+    prov:hadRole "Executor"^^xsd:string ;
+    foaf:mbox "sergioserra@gmail.com"^^xsd:string .
+
